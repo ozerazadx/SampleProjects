@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <div class="game-info">
+            <p>I'm thinking of a number between <span id="min-num"></span> and <span id="max-num"></span>. Can you guess it?</p>
+        </div>
+        <div class="input-container">
+            <input type="number" id="guessInput" placeholder="Enter your guess..." />
+            <button class="btn" id="guessBtn">Guess</button>
+        </div>
+        <p id="message"></p>
+        <div class="score-board">
+            <p><strong>Score:</strong> <span id="score">0</span></p>
+        </div>
+        <button class="btn" id="resetBtn">Play Again</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
